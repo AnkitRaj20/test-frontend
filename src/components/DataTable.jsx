@@ -106,7 +106,7 @@ const DataTable = React.memo(({ tasks, onEditTask, deleteTask }) => {
           onChange={(e) => setFilterStatus(e.target.value)}
           className="border px-3 py-2 rounded-lg"
         >
-          <option value="All">Status</option>
+          <option value="All">All</option>
           <option value="Completed">Completed</option>
           <option value="In Progress">In Progress</option>
           <option value="Pending">Pending</option>
